@@ -1,11 +1,210 @@
 [
   {
-    "name": "test card",
-    "description": "a cool card for testing",
-    "image_filename": "placeholder.png",
+    "name": "Tundra",
+    "description": "A frozen wasteland whose stillness yields steady tribute. Tribute: always produces 1 Essence.",
+    "image_filename": "tundra.png",
     "attributes": {
+      "card_type": "land",
       "rarity": "common",
-      "cost": "0"
+      "cost": "0",
+      "biome": "tundra",
+      "might": "0",
+      "resolve": "0"
+    }
+  },
+  {
+    "name": "Forest",
+    "description": "Where one tree grows, others follow. Tribute: produces 1 Essence for each Forest you control (including itself).",
+    "image_filename": "forest.png",
+    "attributes": {
+      "card_type": "land",
+      "rarity": "common",
+      "cost": "0",
+      "biome": "forest",
+      "might": "0",
+      "resolve": "0"
+    }
+  },
+  {
+    "name": "Jungle",
+    "description": "Lush, untamed, and only useful to those who walk it. Tribute: produces 0 Essence if you have no units; 2 if you control at least one.",
+    "image_filename": "jungle.png",
+    "attributes": {
+      "card_type": "land",
+      "rarity": "common",
+      "cost": "0",
+      "biome": "jungle",
+      "might": "0",
+      "resolve": "0"
+    }
+  },
+  {
+    "name": "Mountain",
+    "description": "Peaks crackle with arcane echoes. Tribute: produces 2 Essence on any turn you cast a spell.",
+    "image_filename": "mountain.png",
+    "attributes": {
+      "card_type": "land",
+      "rarity": "common",
+      "cost": "0",
+      "biome": "mountain",
+      "might": "0",
+      "resolve": "0"
+    }
+  },
+  {
+    "name": "Ocean",
+    "description": "Tides drink in your rival's magic. Tribute: produces 2 Essence on any turn your opponent casts a spell.",
+    "image_filename": "ocean.png",
+    "attributes": {
+      "card_type": "land",
+      "rarity": "common",
+      "cost": "0",
+      "biome": "ocean",
+      "might": "0",
+      "resolve": "0"
+    }
+  },
+  {
+    "name": "Desert",
+    "description": "Bursts of bounty between long droughts. Tribute: produces 2 Essence, then skips its next Tribute.",
+    "image_filename": "desert.png",
+    "attributes": {
+      "card_type": "land",
+      "rarity": "common",
+      "cost": "0",
+      "biome": "desert",
+      "might": "0",
+      "resolve": "0"
+    }
+  },
+  {
+    "name": "Beach",
+    "description": "Where worlds begin. Tribute: produces 1 Essence as long as you control an ocean; otherwise, produces 2 Essence if it is the only land in your Domain.",
+    "image_filename": "beach.png",
+    "attributes": {
+      "card_type": "land",
+      "rarity": "common",
+      "cost": "0",
+      "biome": "beach",
+      "might": "0",
+      "resolve": "0"
+    }
+  },
+  {
+    "name": "River",
+    "description": "A current that feeds the lands it touches. Tribute: produces 1 Essence for each adjacent Forest, Ocean, or Beach in your Domain.",
+    "image_filename": "river.png",
+    "attributes": {
+      "card_type": "land",
+      "rarity": "common",
+      "cost": "0",
+      "biome": "river",
+      "might": "0",
+      "resolve": "0"
+    }
+  },
+  {
+    "name": "The Worldspring",
+    "description": "The first water, from which all rivers flow. Tribute: always produces 3 Essence. You may control only one Worldspring.",
+    "image_filename": "the-worldspring.png",
+    "attributes": {
+      "card_type": "land",
+      "rarity": "legendary",
+      "cost": "0",
+      "biome": "unique",
+      "might": "0",
+      "resolve": "0"
+    }
+  },
+  {
+    "name": "Sprout Acolyte",
+    "description": "A novice spirit, eager and fragile.",
+    "image_filename": "sprout-acolyte.png",
+    "attributes": {
+      "card_type": "unit",
+      "rarity": "common",
+      "cost": "1",
+      "biome": "none",
+      "might": "1",
+      "resolve": "2"
+    }
+  },
+  {
+    "name": "Stoneborn Sentinel",
+    "description": "Hewn from the bones of the mountain. Patient, watchful, hard to break.",
+    "image_filename": "stoneborn-sentinel.png",
+    "attributes": {
+      "card_type": "unit",
+      "rarity": "common",
+      "cost": "3",
+      "biome": "none",
+      "might": "2",
+      "resolve": "3"
+    }
+  },
+  {
+    "name": "Tide Marauder",
+    "description": "A raider of the salt-paths, swift and merciless.",
+    "image_filename": "tide-marauder.png",
+    "attributes": {
+      "card_type": "unit",
+      "rarity": "common",
+      "cost": "4",
+      "biome": "none",
+      "might": "3",
+      "resolve": "3"
+    }
+  },
+  {
+    "name": "Tempest Drake",
+    "description": "A storm given wings and a will.",
+    "image_filename": "tempest-drake.png",
+    "attributes": {
+      "card_type": "unit",
+      "rarity": "rare",
+      "cost": "5",
+      "biome": "none",
+      "might": "4",
+      "resolve": "4"
+    }
+  },
+  {
+    "name": "Glacial Behemoth",
+    "description": "Centuries asleep beneath the ice. Slow to wake. Slower to fall.",
+    "image_filename": "glacial-behemoth.png",
+    "attributes": {
+      "card_type": "unit",
+      "rarity": "rare",
+      "cost": "7",
+      "biome": "none",
+      "might": "6",
+      "resolve": "6"
+    }
+  },
+  {
+    "name": "Avatar of Genesis",
+    "description": "The first thought of the first god, made flesh. When it walks, the world remembers.",
+    "image_filename": "avatar-of-genesis.png",
+    "attributes": {
+      "card_type": "unit",
+      "rarity": "legendary",
+      "cost": "9",
+      "biome": "none",
+      "might": "7",
+      "resolve": "7"
+    }
+  },
+  {
+    "name": "Cataclysm",
+    "description": "The end of an age. Raze every land in your opponent's Domain.",
+    "image_filename": "cataclysm.png",
+    "attributes": {
+      "card_type": "spell",
+      "rarity": "rare",
+      "cost": "6",
+      "biome": "none",
+      "might": "0",
+      "resolve": "0"
     }
   }
 ]

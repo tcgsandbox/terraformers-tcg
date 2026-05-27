@@ -1,2 +1,5 @@
 *.tfvars
+*.tfstate
+*.tfstate.backup
 .terraform/
+BUILD_NOTES.md
