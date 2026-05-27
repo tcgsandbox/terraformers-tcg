@@ -24,6 +24,36 @@ Each player starts at **20 Divinity**.
 
 ---
 
+# Board Layout
+
+The play area is a 6×6 grid shared between both players. Your opponent's side mirrors yours across the center.
+
+```
+         Col 0–3              Col 4–5
+       ┌──────────────────────┬──────────────────┐
+Row 0  │                      │    P1 Divinity   │
+       │   P1 Domain          ├──────────────────┤
+Row 1  │   (up to 7 Lands)    │    P1 Essence    │
+       ├──────────────────────┴──────────────────┤
+Row 2  │         P1 Battlefield (Units)           │
+       ├──────────────────────────────────────────┤
+Row 3  │         P2 Battlefield (Units)           │
+       ├──────────────────────┬──────────────────┤
+Row 4  │                      │    P2 Divinity   │
+       │   P2 Domain          ├──────────────────┤
+Row 5  │   (up to 7 Lands)    │    P2 Essence    │
+       └──────────────────────┴──────────────────┘
+```
+
+| Zone | Description |
+|---|---|
+| **Domain** | Where your lands live. Holds up to 7 — reaching 7 triggers **Dominion** victory. |
+| **Battlefield** | Where your units stand. Units here may attack during the Strike step. |
+| **Divinity** | Tracks your current life total (starts at 20). Hits 0 and you lose. |
+| **Essence** | Tracks your current resource pool. Accumulates each Tribute step. |
+
+---
+
 # Card Types
 
 - **Lands** — the heart of the game. Played into your Domain. Each land produces **Essence** under its own conditions (see *Land Biomes* below). Lands can be **razed** by enemy units or spells.
