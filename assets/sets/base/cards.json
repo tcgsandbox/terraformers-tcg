@@ -1,0 +1,11 @@
+[
+  {
+    "name": "test card",
+    "description": "a cool card for testing",
+    "image_filename": "placeholder.png",
+    "attributes": {
+      "rarity": "common",
+      "cost": "0"
+    }
+  }
+]
